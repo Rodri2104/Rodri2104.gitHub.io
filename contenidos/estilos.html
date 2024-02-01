@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="autor" content="Pedro">
+        <meta http-equiv="x-UA-Compatible" content="IE-edge">
+        <meta name="Viewport" content="width=divice-width, initial-scale=1.8">
+        <meta name="Keyword" content="etiquetas, textos, html, básico">
+        <meta name="description" content="Un blog sobre el uso de etiquetas">
+
+        <style>
+            h1{
+                font-size: max(200px,20vw);
+            }
+            h1, strong{
+                text-decoration: underline;
+            }
+            h2{
+                font-size: 20vw;
+            }
+            h1 strong{ /*Para todos los descendientes*//*1em=16px*/
+                color: yellowgreen;
+            }
+            h1>span{ /*Al descendiente directo*/
+                background-color: aqua;
+            }
+            .btn {
+                display: inline-block;
+                background-color: gray;
+                padding: 15px;
+                text-decoration: none;
+                color: black;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Hola <span> esto es un span</span><strong> es u<span> dentro de strong</span> h17</strong> que solo hay una</h1>
+        <strong>Esta fuera de un h1</strong>
+    </body>
+    <footer>
+        <br><a href="file:///Users/rodri/Desktop/PaginaWeb/index.html" class="btn">Inicio</a>
+    </footer>
+
+</html>
